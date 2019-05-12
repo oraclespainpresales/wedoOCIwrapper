@@ -1,0 +1,31 @@
+{
+  "name": "wedoociwrapper",
+  "version": "1.0.0",
+  "description": "WEDO API OCI signing wrapper",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oraclespainpresales/wedoOCIwrapper.git"
+  },
+  "author": "Carlos Casares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oraclespainpresales/wedoOCIwrapper/issues"
+  },
+  "homepage": "https://github.com/oraclespainpresales/wedoOCIwrapper#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "config": "^3.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-basic-auth": "^1.2.0",
+    "http-signature": "^1.2.0",
+    "jssha": "^2.3.1",
+    "lodash": "^4.17.11",
+    "npmlog-ts": "0.0.1"
+  }
+}

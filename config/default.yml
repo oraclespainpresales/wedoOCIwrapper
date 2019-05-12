@@ -1,0 +1,9 @@
+tenant:
+  tenancyId: "ocid1.tenancy.oc1..aaaaaaaaccrdrt4k37tjev6fhheoqvezozo6unvffeykgkkby3nqzkjzf2yq"
+  authUserId: "ocid1.user.oc1..aaaaaaaaqw5prz746utcviz363nkq445ehco4wumi35vy7pnap7r7jlztfbq"
+  keyFingerprint: "e0:6f:41:73:f5:01:22:0c:51:35:55:44:a5:65:d5:a2"
+  privateKeyPath: "~/.oci/oci_api_key_no_passphrase.pem"
+
+ssl:
+  privatecert: "/u01/ssl/certificate.fullchain.crt"
+  privatekey: "/u01/ssl/certificate.key"
